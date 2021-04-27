@@ -13,4 +13,10 @@ person1.name = "mrs.White";
 var who = person1.name;
 
 person1[0]="i was not in the room";
- 
+
+
+var persons = [];
+var plea ="wouldShe"
+persons.name ="Mrs.White";
+
+persons[plea]="I would Never";
