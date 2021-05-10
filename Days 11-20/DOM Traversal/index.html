@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+	margin:0;
+}
+
+div{
+	display: flex;
+	margin:.5rem;
+	padding:1rem;
+	border: 1 solid black;
+	min-height: 1rem;
+	flex-grow:1;
+}
+
+
+.grandparent {
+	background-color: Blue;
+	flex-direction: column;	
+}
+.parent{
+	background-color: yellow;
+}
+.child {
+	background-color: red;
+}
+	</style>
+	<script src="script.js" defer></script>
+
+</head>
+<body>
+	<div class="grandparent" id="grandparent-id">
+		<div class="parent">
+			<div class="child"></div>
+			<div class="child"></div>
+		</div>	
+		<div class="parent">
+			<div class="child"></div>
+			<div class="child"></div>
+		</div>
+	</div>
+</body>
+
+</html>
