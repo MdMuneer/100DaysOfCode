@@ -14,5 +14,5 @@ btn.addEventListener("click", function () {
 });
 
 function getRandomNumber() {
-  return Math.floor(Math.random() * hex.length);
+  return Math.floor(Math.random() * hex.length); //rounding off the number using floor//
 }
