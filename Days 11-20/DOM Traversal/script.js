@@ -1,4 +1,4 @@
-// const grandparent = document.getElementById("grandparent-id"); //different ways 
+// const grandparent = document.getElementById("grandparent-id"); //different way
 const grandparent = document.querySelector("#grandparent-id")
 
 changeColor(grandparent)
