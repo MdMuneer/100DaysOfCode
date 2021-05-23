@@ -8,7 +8,7 @@ const ctx = canvas.getContext('2d');
 const width = canvas.width = window.innerWidth; //equaling the w & h of the browser viewport 
 const height = canvas.height = window.innerHeight;//using window.innerWidth/innerHeight
 
-// function to generate random number
+// creating function to generate random number
 //This function takes two numbers as arguments, and returns a random number in the range between the two.
 
 function random(min, max) {
