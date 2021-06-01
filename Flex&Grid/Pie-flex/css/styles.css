@@ -35,6 +35,7 @@ nav ul.full-width {
   border-bottom: 3px solid #cc8850;
   overflow: auto;
 
+
 }
 /* splits nav into 2 columns
 http://stackoverflow.com/questions/13104818/simple-2-column-navigation-with-css-and-a-single-list */
@@ -250,3 +251,4 @@ div.row {
     order: 4;
   }
 }
+/* end */
