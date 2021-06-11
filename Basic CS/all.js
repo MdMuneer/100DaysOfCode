@@ -9,3 +9,4 @@ function greatThanFive(arr){
 }
 
 console.log(greatThanFive([1,7,1,10,8]))
+// end
