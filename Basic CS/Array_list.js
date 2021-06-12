@@ -32,4 +32,4 @@ class ArrayList {
 		this.length--;
 	}
 }
-
+// end.
