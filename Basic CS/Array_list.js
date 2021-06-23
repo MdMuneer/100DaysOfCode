@@ -1,5 +1,5 @@
 
-// start..
+// start...
 class ArrayList {.
 	constructor() {
 		this.length = 0;
